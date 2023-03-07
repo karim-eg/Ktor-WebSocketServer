@@ -13,4 +13,5 @@ This is a simple example about Websocket Server Side With Ktor, you can find Web
 `
 
 ## License
-All Copyright Saved By Jetbrains.
+- All Copyright Saved By Jetbrains.
+- [Apache License](https://www.apache.org/licenses/LICENSE-2.0)
