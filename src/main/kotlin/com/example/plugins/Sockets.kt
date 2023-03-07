@@ -11,10 +11,10 @@ import kotlin.collections.LinkedHashSet
 
 fun Application.configureSockets() {
     install(WebSockets) {
-        pingPeriod = Duration.ofSeconds(15)
-        timeout = Duration.ofSeconds(15)
-        maxFrameSize = Long.MAX_VALUE
-        masking = false
+//        pingPeriod = Duration.ofSeconds(15)
+//        timeout = Duration.ofSeconds(15)
+//        maxFrameSize = Long.MAX_VALUE
+//        masking = false
     }
 
     routing {
@@ -30,7 +30,7 @@ fun Application.configureSockets() {
                     val receivedText = frame.readText()
                     val textWithUsername = "[${thisConnection.name}]: $receivedText"
                     connections.forEach {
-                        it.session.send(textWithUsername)
+                        it.session.send(textWithUsername+"\n")
                     }
                 }
             } catch (e: Exception) {
