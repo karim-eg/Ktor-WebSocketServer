@@ -1,6 +1,7 @@
-# Ktor Websocket Server Side
+# Ktor Websocket Server Side [![StandWithPalestine](https://raw.githubusercontent.com/kimoandroid/StandWithPalestine/main/assets/palestine_badge.svg)](https://github.com/kimoandroid/StandWithPalestine)
 This is a simple example about Websocket Server Side With Ktor, you can find Websocket Client Side Here: [Android Websocket Client Side](https://github.com/kimoandroid/Android-WebSocketClient)
 
+[![StandWithPalestine](https://raw.githubusercontent.com/kimoandroid/StandWithPalestine/main/assets/palestine_banner.svg)](https://github.com/kimoandroid/StandWithPalestine/blob/main/Donate.md)
 
 # Preview
 <img src="https://user-images.githubusercontent.com/69405523/223540562-dda95cfa-cae6-4789-b960-b302f9982569.png" width=450/>
